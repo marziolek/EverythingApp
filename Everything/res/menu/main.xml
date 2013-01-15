@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<group android:id="@+id/group1" android:enabled="true" android:checkableBehavior="single" android:menuCategory="system" android:visible="true">
+	    <item android:id="@+id/info" android:icon="@drawable/ic_launcher" android:title="Informacje"></item>
+	</group>
+</menu>
