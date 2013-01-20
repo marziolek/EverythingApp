@@ -32,6 +32,7 @@ public class MainActivity extends Activity {
 	            // Perform action on click
 	        	//Intent intent = new Intent(MainActivity.this, FragmentsActivity.class);
 	            //startActivity(intent);
+	        	//GIT TEST ssh rsa
 	        }
 	    });
 	    
