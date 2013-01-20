@@ -32,11 +32,21 @@ public class MainActivity extends Activity {
 	            // Perform action on click
 	        	//Intent intent = new Intent(MainActivity.this, FragmentsActivity.class);
 	            //startActivity(intent);
+	        	//git test
 	        }
 	    });
 	    
 	    	    
 	    final Button button4 = (Button) findViewById(R.id.button4);
+	    button4.setOnClickListener(new View.OnClickListener() {
+	        public void onClick(View v) {
+	            // Perform action on click
+	        	Intent intent = new Intent(MainActivity.this, FragmentsActivity.class);
+	            startActivity(intent);
+	        }
+	    });
+	    
+	    final Button button5 = (Button) findViewById(R.id.button4);
 	    button4.setOnClickListener(new View.OnClickListener() {
 	        public void onClick(View v) {
 	            // Perform action on click
